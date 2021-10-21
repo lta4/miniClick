@@ -1,0 +1,20 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: none;
+} */
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background-color: whitesmoke;
+    background-repeat: none;
+}
+
+p {
+    margin: 16px auto;
+    line-height: 1.5em;
+}
