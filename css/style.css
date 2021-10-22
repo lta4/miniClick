@@ -18,3 +18,17 @@ p {
     margin: 16px auto;
     line-height: 1.5em;
 }
+
+/************** NAV *****************/
+
+.nav__item
+{
+    padding: 4px 10px;
+    color: black;
+}
+
+.nav__item--active
+{
+    font-weight: bold;
+    background-color: #ffc7c7;
+}
