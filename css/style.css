@@ -4,31 +4,28 @@
     text-decoration: none;
     scroll-behavior: none;
 } */
-
 html, body {
-    min-height: 100%;
+  min-height: 100%;
 }
 
 body {
-    background-color: whitesmoke;
-    background-repeat: none;
+  background-color: whitesmoke;
+  background-repeat: none;
 }
 
 p {
-    margin: 16px auto;
-    line-height: 1.5em;
+  margin: 16px auto;
+  line-height: 1.5em;
 }
 
 /************** NAV *****************/
-
-.nav__item
-{
-    padding: 4px 10px;
-    color: black;
+.nav__item {
+  padding: 4px 10px;
+  color: black;
 }
 
-.nav__item--active
-{
-    font-weight: bold;
-    background-color: #ffc7c7;
+.nav__item--active {
+  font-weight: bold;
+  background-color: #ffc7c7;
 }
+/*# sourceMappingURL=style.css.map */
