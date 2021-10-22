@@ -1,9 +1,8 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    scroll-behavior: none;
-} */
+* {
+  text-decoration: none;
+  scroll-behavior: none;
+}
+
 html, body {
   min-height: 100%;
 }
@@ -20,12 +19,30 @@ p {
 
 /************** NAV *****************/
 .nav__item {
-  padding: 4px 10px;
-  color: black;
+  color: #4B5D68;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
 }
 
 .nav__item--active {
   font-weight: bold;
-  background-color: #ffc7c7;
+}
+
+.nav__item--button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-shadow: 0px 5px 5px;
+          box-shadow: 0px 5px 5px;
+  border-radius: 50px;
 }
 /*# sourceMappingURL=style.css.map */

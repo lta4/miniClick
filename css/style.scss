@@ -1,9 +1,9 @@
-/* * {
-    margin: 0;
-    padding: 0;
+* {
+    // margin: 0;
+    // padding: 0;
     text-decoration: none;
     scroll-behavior: none;
-} */
+}
 
 html, body {
     min-height: 100%;
@@ -21,14 +21,21 @@ p {
 
 /************** NAV *****************/
 
-.nav__item
-{
-    padding: 4px 10px;
-    color: black;
-}
+.nav__item {
+    // padding: 4px 10px;
+    color: #4B5D68;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
 
-.nav__item--active
-{
-    font-weight: bold;
-    background-color: #ffc7c7;
+    &--active {
+        font-weight: bold;
+    }
+
+    &--button {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        box-shadow: 0px 5px 5px;
+        border-radius: 50px;
+    }
 }
