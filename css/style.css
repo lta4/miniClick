@@ -18,6 +18,22 @@ p {
 }
 
 /************** NAV *****************/
+.logo__accent {
+  width: 20px;
+  height: 20px;
+  left: 240px;
+  top: 74px;
+  background-color: #9c69e2;
+  border-radius: 20px;
+}
+
+.logo__accent--activeTwo {
+  height: 35px;
+  left: 269px;
+  top: 59px;
+  background-color: #f063b8;
+}
+
 .nav__item {
   color: #4B5D68;
   display: -ms-inline-grid;
