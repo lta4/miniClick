@@ -34,7 +34,7 @@ p {
 }
 
 .nav__item {
-    font-family: avenir;
+    font-family: Avenir;
     padding: 4px 10px;
     color: #4B5D68;
     display: inline-grid;
@@ -54,9 +54,41 @@ p {
         font-weight: bold;
 
     }
+
+    a:visited {
+        color: #212353;
+    }
 }
 
-a:visited {
-    color: #212353;
+/**************** HEADER *********************/
+
+.header__line {
+    width: 645px;
+    height: 184px;
+    font-family: Helvetica;
+    font-size: 80px;
+//     display: flex;
+//     align-items: center;
+//     line-height: 110%;
 }
 
+.content__one {
+    font-family: Avenir;
+    width: 380px;
+    height: 120px;
+    left: 240px;
+    top: 471px;
+    font-size: 18px;
+    line-height: 28.8px;
+    color: #4B5D68;
+}
+
+.learn__more {
+    width: 170px;
+    height: 60px;
+    background-color: #9c69e2;
+    border-radius: 50px;
+    font-family: Avenir;
+    font-size: 18px;
+    color: #ffffff;
+}
