@@ -135,4 +135,15 @@ p {
   line-height: 52px;
   color: #212353;
 }
+
+.content__one--active {
+  position: absolute;
+  width: 584px;
+  height: 58px;
+  left: 507.29px;
+  top: 1715px;
+  line-height: 29px;
+  text-align: center;
+  color: #4B5D68;
+}
 /*# sourceMappingURL=style.css.map */
