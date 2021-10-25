@@ -96,7 +96,7 @@ p {
 }
 
 /******************* DETAILS ******************/
-.details {
+.titles {
   position: absolute;
   width: 1117px;
   height: 560px;
@@ -106,7 +106,7 @@ p {
   border-radius: 50px;
 }
 
-.details__item--active {
+.titles__item {
   width: 475px;
   height: 100px;
   left: 790px;
@@ -120,6 +120,19 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #212353;
+}
+
+/***************** FEATURES ***********************/
+.titles__item--active {
+  position: absolute;
+  width: 405px;
+  height: 52px;
+  left: 592.29px;
+  top: 1613px;
+  font-family: Helvetica;
+  font-size: 40px;
+  line-height: 52px;
   color: #212353;
 }
 /*# sourceMappingURL=style.css.map */
