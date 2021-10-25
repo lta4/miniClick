@@ -219,4 +219,40 @@ p {
   left: 1087.28px;
   top: 2400px;
 }
+
+.learn__guide {
+  position: absolute;
+  width: 87px;
+  height: 26px;
+  left: 500.29px;
+  top: 2172px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.005em;
+  color: #212353;
+}
+
+.learn__guide--active {
+  left: 1087.28px;
+  top: 2172px;
+}
+
+.learn__guide--activeTwo {
+  left: 500.29px;
+  top: 2580px;
+}
+
+.learn__guide--activeThree {
+  left: 1087.28px;
+  top: 2580px;
+}
 /*# sourceMappingURL=style.css.map */
