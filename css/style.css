@@ -255,4 +255,28 @@ p {
   left: 1087.28px;
   top: 2580px;
 }
+
+.ar {
+  position: absolute;
+  width: 20px;
+  height: 0px;
+  left: 607.29px;
+  top: 2185px;
+  border: 2px solid #9c69e2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.row {
+  position: absolute;
+  width: 14px;
+  height: 6px;
+  left: 627.29px;
+  top: 2178px;
+  border: 2px solid #9c69e2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
 /*# sourceMappingURL=style.css.map */
