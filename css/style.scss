@@ -144,3 +144,34 @@ p {
     color: #4B5D68;
 }
 
+.item__title {
+    position: absolute;
+    left: 500.29px;
+    top: 1922px;
+    width: 200px;
+    height: 50px;
+    font-family: Helvetica;
+    font-size: 24px;
+    line-height: 31px;
+    font-style: normal;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    color: #212353;
+
+    &--activeTwo {
+        left: 1087.28px;
+        top: 1922px;
+    }
+
+    &--activeThree {
+        left: 500.29px;
+        top: 2330px;
+    }
+
+    &--activeFour {
+        left: 1087.28px;
+        top: 2330px;
+    }
+}
+

@@ -146,4 +146,39 @@ p {
   text-align: center;
   color: #4B5D68;
 }
+
+.item__title {
+  position: absolute;
+  left: 500.29px;
+  top: 1922px;
+  width: 200px;
+  height: 50px;
+  font-family: Helvetica;
+  font-size: 24px;
+  line-height: 31px;
+  font-style: normal;
+  font-weight: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #212353;
+}
+
+.item__title--activeTwo {
+  left: 1087.28px;
+  top: 1922px;
+}
+
+.item__title--activeThree {
+  left: 500.29px;
+  top: 2330px;
+}
+
+.item__title--activeFour {
+  left: 1087.28px;
+  top: 2330px;
+}
 /*# sourceMappingURL=style.css.map */
