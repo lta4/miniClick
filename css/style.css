@@ -75,12 +75,15 @@ p {
 }
 
 .content__one {
+  position: absolute;
   font-family: Avenir;
   width: 380px;
   height: 120px;
   left: 240px;
   top: 471px;
   font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
   line-height: 28.8px;
   color: #4B5D68;
 }
@@ -107,6 +110,7 @@ p {
 }
 
 .titles__item {
+  position: absolute;
   width: 475px;
   height: 100px;
   left: 790px;
@@ -121,6 +125,14 @@ p {
       -ms-flex-align: center;
           align-items: center;
   color: #212353;
+}
+
+.content__one--activeDetail {
+  width: 584px;
+  height: 58px;
+  left: 507.29px;
+  top: 1715px;
+  text-align: center;
 }
 
 /***************** FEATURES ***********************/
@@ -180,5 +192,31 @@ p {
 .item__title--activeFour {
   left: 1087.28px;
   top: 2330px;
+}
+
+.content__one--activeTwo {
+  width: 220px;
+  height: 160px;
+  left: 500.29px;
+  top: 1992px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.content__one--activeThree {
+  left: 1087.28px;
+  top: 1992px;
+}
+
+.content__one--activeFour {
+  left: 500.29px;
+  top: 2400px;
+}
+
+.content__one--activeFive {
+  left: 1087.28px;
+  top: 2400px;
 }
 /*# sourceMappingURL=style.css.map */
