@@ -92,3 +92,29 @@ p {
     font-size: 18px;
     color: #ffffff;
 }
+
+/******************* DETAILS ******************/
+
+.details {
+    position: absolute;
+    width: 1117px;
+    height: 560px;
+    left: 240px;
+    top: 903.18px;
+    background-color: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+
+    &__item--active {
+        // position: absolute;
+        width: 475px;
+        height: 100px;
+        left: 790px;
+        top: 1028.18px;
+        font-family: Helvetica;
+        font-size: 40px;
+        line-height: 52px;
+        display: flex;
+        align-items: center;
+        color: #212353;
+    }
+}

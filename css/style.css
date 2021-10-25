@@ -94,4 +94,32 @@ p {
   font-size: 18px;
   color: #ffffff;
 }
+
+/******************* DETAILS ******************/
+.details {
+  position: absolute;
+  width: 1117px;
+  height: 560px;
+  left: 240px;
+  top: 903.18px;
+  background-color: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+}
+
+.details__item--active {
+  width: 475px;
+  height: 100px;
+  left: 790px;
+  top: 1028.18px;
+  font-family: Helvetica;
+  font-size: 40px;
+  line-height: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #212353;
+}
 /*# sourceMappingURL=style.css.map */
