@@ -234,27 +234,47 @@ html, body {
 
 /******************* DETAILS ******************/
 
-.titles {
+.storage {
     position: absolute;
     width: 1117px;
     height: 560px;
     left: 240px;
     top: 903.18px;
-    background-color: rgba(240, 99, 184, 0.15);
-    border-radius: 50px;
 
-    &__item {
-        position: absolute;
+    &__titles {
+        background-color: rgba(240, 99, 184, 0.15);
+        border-radius: 50px;
+
+    
+    
+    &--activeText {
         width: 475px;
-        height: 100px;
+        height: 310px;
         left: 790px;
         top: 1028.18px;
-        font-family: Helvetica;
-        font-size: 40px;
-        line-height: 52px;
-        display: flex;
-        align-items: center;
-        color: #212353;
+
+        &--activeTitle {
+            height: 100px;
+            font-family: Helvetica;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 52px;
+            display: flex;
+            align-items: center;
+            color: #212353;
+        }
+
+    }
+
+    &__imageTwo {
+        width: 477px;
+        height: 504px;
+        left: 251px;
+        top: 935px;
+    }
+
+
     }
 }
 

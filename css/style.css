@@ -176,23 +176,31 @@ html, body {
 }
 
 /******************* DETAILS ******************/
-.titles {
+.storage {
   position: absolute;
   width: 1117px;
   height: 560px;
   left: 240px;
   top: 903.18px;
+}
+
+.storage__titles {
   background-color: rgba(240, 99, 184, 0.15);
   border-radius: 50px;
 }
 
-.titles__item {
-  position: absolute;
+.storage__titles--activeText {
   width: 475px;
-  height: 100px;
+  height: 310px;
   left: 790px;
   top: 1028.18px;
+}
+
+.storage__titles--activeText--activeTitle {
+  height: 100px;
   font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
   font-size: 40px;
   line-height: 52px;
   display: -webkit-box;
@@ -202,6 +210,13 @@ html, body {
       -ms-flex-align: center;
           align-items: center;
   color: #212353;
+}
+
+.storage__titles__imageTwo {
+  width: 477px;
+  height: 504px;
+  left: 251px;
+  top: 935px;
 }
 
 .content__one--activeDetail {
