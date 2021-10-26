@@ -4,74 +4,130 @@
 }
 
 html, body {
-  min-height: 100%;
-}
-
-body {
-  background-color: whitesmoke;
-  background-repeat: none;
-}
-
-p {
-  margin: 16px auto;
-  line-height: 1.5em;
+  position: relative;
+  width: 1600px;
+  height: 4350px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f6fafd), color-stop(19.4%, #ffffff));
+  background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
 }
 
 /************** NAV *****************/
 .logo__accent {
+  position: absolute;
   width: 20px;
   height: 20px;
+  left: 240px;
+  top: 74px;
   background-color: #9c69e2;
   border-radius: 20px;
 }
 
 .logo__accent--activeTwo {
   height: 35px;
+  left: 269px;
+  top: 59px;
   background-color: #f063b8;
 }
 
 .nav__item {
-  font-family: Avenir;
-  padding: 4px 10px;
-  color: #4B5D68;
-  display: -ms-inline-grid;
-  display: inline-grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 410px;
+  top: 62px;
 }
 
 .nav__item--active {
-  font-weight: bold;
-}
-
-.nav__item--button {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-shadow: 0px 5px 5px;
-          box-shadow: 0px 5px 5px;
-  border-radius: 50px;
+  position: absolute;
+  width: 53px;
+  height: 30px;
+  left: 410px;
+  top: 62px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 26px;
   color: #212353;
-  font-weight: bold;
 }
 
-.nav__item a:visited {
+.nav__item--activeTwo {
+  width: 35px;
+  height: 26px;
+  left: 503px;
+  top: 64px;
+  font-weight: 500;
+  color: #4B5D68;
+}
+
+.nav__item--activeThree {
+  width: 63px;
+  height: 26px;
+  left: 578px;
+  top: 64px;
+  font-weight: 500;
+  color: #4B5D68;
+}
+
+.nav__item--activeFour {
+  width: 51px;
+  height: 26px;
+  left: 681px;
+  top: 64px;
+  font-weight: 500;
+  color: #4B5D68;
+}
+
+.request {
+  position: absolute;
+  width: 210px;
+  height: 60px;
+  left: 1150px;
+  top: 47px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+          box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+}
+
+.request--active {
+  position: absolute;
+  width: 112px;
+  height: 26px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.005em;
   color: #212353;
 }
 
 /**************** HEADER *********************/
 .header__line {
+  position: absolute;
   width: 645px;
   height: 184px;
+  left: 240px;
+  top: 237px;
   font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
   font-size: 80px;
+  line-height: 88px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #212353;
 }
 
 .content__one {
@@ -88,7 +144,8 @@ p {
   color: #4B5D68;
 }
 
-.learn__more {
+.learn__box {
+  position: absolute;
   width: 170px;
   height: 60px;
   background-color: #9c69e2;
@@ -96,6 +153,34 @@ p {
   font-family: Avenir;
   font-size: 18px;
   color: #ffffff;
+}
+
+.learn__more {
+  position: absolute;
+  width: 96px;
+  height: 277px;
+  top: 657px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 29px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.image {
+  position: absolute;
+  width: 885px;
+  height: 468px;
+  left: 603px;
+  top: 333px;
 }
 
 /******************* DETAILS ******************/

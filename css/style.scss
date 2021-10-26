@@ -6,56 +6,138 @@
 }
 
 html, body {
-    min-height: 100%;
+    // min-height: 100%;
+    position: relative;
+    width: 1600px;
+    height: 4350px;
+    background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
 }
 
-body {
-    background-color: whitesmoke;
-    background-repeat: none;
-}
+// body {
+//     background-color: whitesmoke;
+//     background-repeat: none;
+// }
 
-p {
-    margin: 16px auto;
-    line-height: 1.5em;
-}
+// p {
+//     margin: 16px auto;
+//     line-height: 1.5em;
+// }
 
 /************** NAV *****************/
 
 .logo__accent {
+    position: absolute;
     width: 20px;
     height: 20px;
+    left: 240px;
+    top: 74px;
     background-color: #9c69e2;
     border-radius: 20px;
 
     &--activeTwo {
         height: 35px;
+        left: 269px;
+        top: 59px;
         background-color: #f063b8;
     }
 }
 
+// .nav {
+//     position: absolute;
+//     width: 322px;
+//     height: 30px;
+//     left: 410px;
+//     top: 62px;
+// }
+
 .nav__item {
-    font-family: Avenir;
-    padding: 4px 10px;
-    color: #4B5D68;
-    display: inline-grid;
-    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 410px;
+    top: 62px;
 
     &--active {
-        font-weight: bold;
-    }
-
-    &--button {
-        display: inline-flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        box-shadow: 0px 5px 5px;
-        border-radius: 50px;
+        position: absolute;
+        width: 53px;
+        height: 30px;
+        left: 410px;
+        top: 62px;
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 26px;
         color: #212353;
-        font-weight: bold;
-
     }
 
-    a:visited {
+    &--activeTwo {
+        width: 35px;
+        height: 26px;
+        left: 503px;
+        top: 64px;
+        font-weight: 500;
+        color: #4B5D68;
+    }
+
+    &--activeThree {
+        width: 63px;
+        height: 26px;
+        left: 578px;
+        top: 64px;
+        font-weight: 500;
+        color: #4B5D68;
+    }
+
+    &--activeFour {
+        width: 51px;
+        height: 26px;
+        left: 681px;
+        top: 64px;
+        font-weight: 500;
+        color: #4B5D68;
+    }
+
+    // &--button {
+    //     display: inline-flex;
+    //     flex-direction: row;
+    //     justify-content: flex-end;
+    //     box-shadow: 0px 5px 5px;
+    //     border-radius: 50px;
+    //     color: #212353;
+    //     font-weight: bold;
+
+    // }
+
+    // a:visited {
+    //     color: #212353;
+    // }
+}
+
+.request {
+    position: absolute;
+    width: 210px;
+    height: 60px;
+    left: 1150px;
+    top: 47px;
+    background: #ffffff;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+
+    &--active {
+        position: absolute;
+        width: 112px;
+        height: 26px;
+        // left: 1179px;
+        // top: 64px;
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.005em;
         color: #212353;
     }
 }
@@ -63,13 +145,19 @@ p {
 /**************** HEADER *********************/
 
 .header__line {
+    position: absolute;
     width: 645px;
     height: 184px;
+    left: 240px;
+    top: 237px;
     font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
     font-size: 80px;
-    // display: flex;
-    // align-items: center;
-    // line-height: 110%;
+    line-height: 88px;
+    display: flex;
+    align-items: center;
+    color: #212353;
 }
 
 .content__one {
@@ -86,7 +174,8 @@ p {
     color: #4B5D68;
 }
 
-.learn__more {
+.learn__box {
+    position: absolute;
     width: 170px;
     height: 60px;
     background-color: #9c69e2;
@@ -94,6 +183,30 @@ p {
     font-family: Avenir;
     font-size: 18px;
     color: #ffffff;
+}
+
+.learn__more {
+    position: absolute;
+    width: 96px;
+    height: 277px;
+    top: 657px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.image {
+    position: absolute;
+    width: 885px;
+    height: 468px;
+    left: 603px;
+    top: 333px;
 }
 
 /******************* DETAILS ******************/
