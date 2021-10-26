@@ -144,7 +144,7 @@ html, body {
   color: #4B5D68;
 }
 
-.learn__box {
+.learn__more {
   position: absolute;
   width: 170px;
   height: 60px;
@@ -152,18 +152,14 @@ html, body {
   border-radius: 50px;
   font-family: Avenir;
   font-size: 18px;
-  color: #ffffff;
 }
 
-.learn__more {
-  position: absolute;
+.learn__more--active {
   width: 96px;
   height: 277px;
   top: 657px;
-  font-family: Avenir;
   font-style: normal;
   font-weight: 800;
-  font-size: 18px;
   line-height: 29px;
   display: -webkit-box;
   display: -ms-flexbox;
