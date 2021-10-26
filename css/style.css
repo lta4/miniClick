@@ -148,6 +148,8 @@ html, body {
   position: absolute;
   width: 170px;
   height: 60px;
+  left: 240px;
+  top: 641px;
   background-color: #9c69e2;
   border-radius: 50px;
   font-family: Avenir;
@@ -156,18 +158,12 @@ html, body {
 
 .learn__more--active {
   width: 96px;
-  height: 277px;
+  height: 29px;
+  left: 277px;
   top: 657px;
   font-style: normal;
   font-weight: 800;
   line-height: 29px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
   color: #ffffff;
 }
 
