@@ -508,6 +508,104 @@ html, body {
         top: 2586px;
     }
 }
-    
 
+/************* TEST ******************/
+
+.test {
+    position: absolute;
+    width: 1118px;
+    height: 709px;
+    left: 242px;
+    top: 2789px;
+    background: #9c69e2;
+    border-radius: 50px;
+
+    &__title {
+        width: 405px;
+        height: 52px;
+        left: 335px;
+        top: 2898px;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 52px;
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+    }
+
+    &__slide--activeOne {
+        position: absolute;
+        width: 1118px;
+        height: 709px;
+        left: 242px;
+        top: 2789px;
+    }
+}
+
+/***************FOOTER****************/
+
+.line {
+    position: absolute;
+    height: 2px;
+    background: #9c69e2;
+    opacity: 0.2;
+}
+
+.footer {
+    position: absolute;
+    width: 1600px;
+    height: 613px;
+    left: 0px;
+    top: 3648px;
+
+    &__head {
+        width: 584px;
+        height: 101px;
+        left: 240px;
+        top: 3750px;
+
+        &--activeTitle {
+            width: 405px;
+            height: 52px;
+            left: 240px;
+            top: 3750px;
+            font-family: Helvetica;
+            font-style: normal;
+            font-size: 40px;
+            line-height: 52px;
+            display: flex;
+            align-items: center;
+            color: #212353;
+        }
+
+        &--activeDetail {
+            width: 584px;
+            height: 29px;
+            left: 240px;
+            top: 3822px;
+            font-family: Avenir;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 29px;
+            color: #4B5D68;
+        }
+    }
+
+    // &__title {
+    //     width: 405px;
+    //     height: 52px;
+    //     left: 240px;
+    //     top: 3750px;
+    //     font-family: Helvetica;
+    //     font-style: normal;
+    //     font-size: 40px;
+    //     line-height: 52px;
+    //     display: flex;
+    //     align-items: center;
+    //     color: #212353;
+    // }
+}
 
