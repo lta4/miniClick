@@ -1,12 +1,11 @@
 * {
-    // margin: 0;
+    margin: 0;
     // padding: 0;
     text-decoration: none;
     scroll-behavior: none;
 }
 
 html, body {
-    // min-height: 100%;
     position: relative;
     width: 1600px;
     height: 4350px;
@@ -18,15 +17,10 @@ html, body {
 //     background-repeat: none;
 // }
 
-// p {
-//     margin: 16px auto;
-//     line-height: 1.5em;
-// }
-
 /*********** HEAD ********************/
 
 .headerWrap {
-    position: absolute;
+    // position: absolute;
     width: 1248px;
     height: 754px;
     left: 240px;
@@ -52,13 +46,13 @@ html, body {
     }
 }
 
-// .nav {
-//     position: absolute;
-//     width: 322px;
-//     height: 30px;
-//     left: 410px;
-//     top: 62px;
-// }
+.nav {
+    // position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 410px;
+    top: 62px;
+}
 
 .nav__item {
     position: absolute;
@@ -68,7 +62,6 @@ html, body {
     top: 62px;
 
     &--active {
-        position: absolute;
         width: 53px;
         height: 30px;
         left: 410px;
@@ -134,21 +127,23 @@ html, body {
     box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
     border-radius: 50px;
 
-    &--active {
-        position: absolute;
-        width: 112px;
+    &__demo {
+        width: 152px;
         height: 26px;
-        // left: 1179px;
-        // top: 64px;
+        left: 1179px;
+        top: 64px;
         font-family: Avenir;
         font-style: normal;
         font-weight: 800;
         font-size: 16px;
         line-height: 26px;
-        display: flex;
-        align-items: center;
         letter-spacing: 0.005em;
         color: #212353;
+
+        &--active {
+            left: 1147px;
+            top: 3771px;
+        }
     }
 }
 
@@ -203,7 +198,7 @@ html, body {
     font-family: Avenir;
     font-size: 18px;
 
-    &--active {
+    &--activeOne {
         width: 96px;
         height: 29px;
         left: 277px;
@@ -214,6 +209,15 @@ html, body {
         // display: flex;
         // align-items: center;
         // text-align: center;
+        color: #ffffff;
+    }
+
+    &--activeTwo {
+        left: 947px;
+        top: 3771px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 29px;
         color: #ffffff;
     }
 }
@@ -483,6 +487,11 @@ html, body {
         left: 1194.28px;
         top: 2592px;
     }
+
+    &--activeFour {
+        left: 1308px;
+        top: 3801px;
+    }
 }
 
 .row__tri {
@@ -506,6 +515,11 @@ html, body {
     &--activeThree {
         left: 1214px;
         top: 2586px;
+    }
+
+    &--activeFour {
+        left: 1328px;
+        top: 3794px;
     }
 }
 
