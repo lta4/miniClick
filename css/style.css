@@ -49,6 +49,7 @@ html, body {
   position: absolute;
   width: 322px;
   height: 30px;
+  font-family: Avenir;
   left: 410px;
   top: 62px;
 }
@@ -58,7 +59,6 @@ html, body {
   height: 30px;
   left: 410px;
   top: 62px;
-  font-family: Avenir;
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
@@ -217,27 +217,16 @@ html, body {
   border-radius: 50px;
 }
 
-.storage .storage__back--activeText {
-  position: absolute;
+.storage__back--activeTitle {
   width: 475px;
-  height: 310px;
+  height: 100px;
   left: 790px;
   top: 1028.18px;
-}
-
-.storage .storage__back--activeText--activeTitle {
-  height: 100px;
   font-family: Helvetica;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   color: #212353;
 }
 
@@ -248,12 +237,17 @@ html, body {
   top: 935px;
 }
 
-.content__one--activeDetail {
-  width: 584px;
-  height: 58px;
-  left: 507.29px;
-  top: 1715px;
-  text-align: center;
+.content__one_storage__back--activeDetail {
+  width: 474px;
+  height: 170px;
+  left: 790px;
+  top: 1168.18px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  color: #4B5D68;
 }
 
 /***************** FEATURES ***********************/
@@ -525,5 +519,40 @@ html, body {
   font-size: 18px;
   line-height: 29px;
   color: #4B5D68;
+}
+
+.data {
+  width: 153px;
+  height: 30px;
+  left: 309px;
+  top: 4004px;
+  font-family: Avenir;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #212353;
+}
+
+.data__address {
+  width: 335px;
+  height: 65px;
+  left: 240px;
+  top: 4101px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29px;
+  letter-spacing: 0.01em;
+}
+
+.data__info {
+  width: 335px;
+  height: 60px;
+  lefT: 240px;
+  top: 4176px;
+  font-family: Avenir;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 29px;
+  letter-spacing: 0.01em;
 }
 /*# sourceMappingURL=style.css.map */
