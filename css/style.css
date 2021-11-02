@@ -185,10 +185,7 @@ html, body {
 .learn__more--activeTwo {
   left: 947px;
   top: 3771px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 29px;
-  color: #ffffff;
+  color: #f063b8;
 }
 
 .image {
@@ -467,7 +464,7 @@ html, body {
   top: 2789px;
 }
 
-/***************FOOTER****************/
+/***************BOTTOM****************/
 .line {
   position: absolute;
   height: 2px;
@@ -475,7 +472,7 @@ html, body {
   opacity: 0.2;
 }
 
-.footer {
+.bottom {
   position: absolute;
   width: 1600px;
   height: 613px;
@@ -483,14 +480,14 @@ html, body {
   top: 3648px;
 }
 
-.footer__head {
+.bottom__head {
   width: 584px;
   height: 101px;
   left: 240px;
   top: 3750px;
 }
 
-.footer__head--activeTitle {
+.bottom__head--activeTitle {
   width: 405px;
   height: 52px;
   left: 240px;
@@ -508,7 +505,7 @@ html, body {
   color: #212353;
 }
 
-.footer__head--activeDetail {
+.bottom__head--activeDetail {
   width: 584px;
   height: 29px;
   left: 240px;
@@ -521,7 +518,16 @@ html, body {
   color: #4B5D68;
 }
 
-.data {
+/**************FOOTER********************/
+.footer {
+  position: absolute;
+  width: 1085px;
+  height: 260px;
+  left: 240px;
+  top: 4001px;
+}
+
+.footer__data {
   width: 153px;
   height: 30px;
   left: 309px;
@@ -533,7 +539,7 @@ html, body {
   color: #212353;
 }
 
-.data__address {
+.footer__data--activeOne {
   width: 335px;
   height: 65px;
   left: 240px;
@@ -544,7 +550,7 @@ html, body {
   letter-spacing: 0.01em;
 }
 
-.data__info {
+.footer__data--activeTwo {
   width: 335px;
   height: 60px;
   lefT: 240px;
@@ -554,5 +560,50 @@ html, body {
   font-size: 16px;
   line-height: 29px;
   letter-spacing: 0.01em;
+}
+
+.footer__about {
+  width: 166px;
+  height: 220px;
+  left: 715px;
+  top: 4011px;
+}
+
+.footer__about--activeTitle {
+  width: 51.75px;
+  height: 30px;
+  left: 715px;
+  top: 4011px;
+  font-family: Avenir;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  color: #212353;
+}
+
+.footer__about--activeOne {
+  width: 166px;
+  height: 160px;
+  left: 715px;
+  top: 4071px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 40px;
+  color: #212353;
+}
+
+.footer__about--activeTwo {
+  width: 166px;
+  height: 160px;
+  left: 715px;
+  top: 4050px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 40px;
+  color: #212353;
 }
 /*# sourceMappingURL=style.css.map */

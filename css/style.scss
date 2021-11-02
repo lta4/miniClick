@@ -197,7 +197,7 @@ html, body {
     border-radius: 50px;
     font-family: Avenir;
     font-size: 18px;
-
+ 
     &--activeOne {
         width: 96px;
         height: 29px;
@@ -215,11 +215,9 @@ html, body {
     &--activeTwo {
         left: 947px;
         top: 3771px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 29px;
-        color: #ffffff;
+        color: #f063b8;
     }
+
 }
 
 // .learn__more {
@@ -553,7 +551,7 @@ html, body {
     }
 }
 
-/***************FOOTER****************/
+/***************BOTTOM****************/
 
 .line {
     position: absolute;
@@ -562,7 +560,7 @@ html, body {
     opacity: 0.2;
 }
 
-.footer {
+.bottom {
     position: absolute;
     width: 1600px;
     height: 613px;
@@ -618,38 +616,93 @@ html, body {
     // }
 }
 
-.data {
-    width: 153px;
-    height: 30px;
-    left: 309px;
-    top: 4004px;
-    font-family: Avenir;
-    font-style: normal;
-    font-size: 20px;
-    line-height: 32px;
-    color: #212353;  
-    
-    &__address {
-        width: 335px;
-        height: 65px;
-        left: 240px;
-        top: 4101px;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 29px;
-        letter-spacing: 0.01em;
-    }
+/**************FOOTER********************/
 
-    &__info {
-        width: 335px;
-        height: 60px;
-        lefT: 240px;
-        top: 4176px;
+.footer {
+    position: absolute;
+    width: 1085px;
+    height: 260px;
+    left: 240px;
+    top: 4001px;
+
+    &__data {
+        width: 153px;
+        height: 30px;
+        left: 309px;
+        top: 4004px;
         font-family: Avenir;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 29px;
-        letter-spacing: 0.01em;
-    }
-}
+        font-style: normal;
+        font-size: 20px;
+        line-height: 32px;
+        color: #212353;  
+    
+        &--activeOne {
+            width: 335px;
+            height: 65px;
+            left: 240px;
+            top: 4101px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 29px;
+            letter-spacing: 0.01em;
+        }
 
+        &--activeTwo {
+            width: 335px;
+            height: 60px;
+            lefT: 240px;
+            top: 4176px;
+            font-family: Avenir;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 29px;
+            letter-spacing: 0.01em;
+        }
+    }
+
+    &__about {
+        width: 166px;
+        height: 220px;
+        left: 715px;
+        top: 4011px;
+
+        &--activeTitle {
+            width: 51.75px;
+            height: 30px;
+            left: 715px;
+            top: 4011px;
+            font-family: Avenir;
+            font-weight: 900;
+            font-size: 16px;
+            line-height: 26px;
+            color: #212353;
+        }
+
+        &--activeOne {
+            width: 166px;
+            height: 160px;
+            left: 715px;
+            top: 4071px;
+            font-family: Avenir;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 40px;
+            color: #212353;
+        }
+
+        &--activeTwo {
+            width: 166px;
+            height: 160px;
+            left: 715px;
+            top: 4050px;
+            font-family: Avenir;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 40px;
+            color: #212353;
+        }
+    }
+
+}
