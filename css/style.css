@@ -270,6 +270,16 @@ html, body {
   top: 1946px;
 }
 
+.search .rectangle {
+  width: 442px;
+  height: 358px;
+  left: 328.29px;
+  top: 1873px;
+  background: #68c9ba;
+  opacity: 0.1;
+  border-radius: 50px;
+}
+
 .search_item__title {
   left: 500.29px;
   top: 1922px;
