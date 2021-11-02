@@ -214,7 +214,14 @@ html, body {
   border-radius: 50px;
 }
 
-.storage__back--activeTitle {
+.storage__back_text {
+  width: 475px;
+  height: 310px;
+  left: 790px;
+  top: 1028.18px;
+}
+
+.storage__back_text--activeTitle {
   width: 475px;
   height: 100px;
   left: 790px;

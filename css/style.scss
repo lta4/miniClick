@@ -260,6 +260,13 @@ html, body {
         top: 903.18px;
         background-color: rgba(240, 99, 184, 0.15);
         border-radius: 50px;
+    
+
+    &_text {
+        width: 475px;
+        height: 310px;
+        left: 790px;
+        top: 1028.18px;
 
             &--activeTitle {
                 // position: absolute;
@@ -276,6 +283,7 @@ html, body {
                 // align-items: center;
                 color: #212353;
             }
+        }
     }
 
     &__imageTwo {
