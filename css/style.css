@@ -255,8 +255,22 @@ html, body {
 }
 
 /***************** FEATURES ***********************/
-.item__title {
+.search {
   position: absolute;
+  width: 531.29px;
+  height: 388px;
+  left: 239px;
+  top: 1843px;
+}
+
+.search .searchImg {
+  width: 232px;
+  height: 211px;
+  left: 239px;
+  top: 1946px;
+}
+
+.search_item__title {
   left: 500.29px;
   top: 1922px;
   width: 200px;
@@ -275,7 +289,7 @@ html, body {
   color: #212353;
 }
 
-.item__title--active {
+.search_item__title--active {
   width: 405px;
   height: 52px;
   left: 592.29px;
@@ -285,23 +299,22 @@ html, body {
   line-height: 52px;
 }
 
-.item__title--activeTwo {
+.search_item__title--activeTwo {
   left: 1087.28px;
   top: 1922px;
 }
 
-.item__title--activeThree {
+.search_item__title--activeThree {
   left: 500.29px;
   top: 2330px;
 }
 
-.item__title--activeFour {
+.search_item__title--activeFour {
   left: 1087.28px;
   top: 2330px;
 }
 
-.content__one--active {
-  position: absolute;
+.search_content__one--active {
   width: 584px;
   height: 58px;
   left: 507.29px;
@@ -311,7 +324,7 @@ html, body {
   color: #4B5D68;
 }
 
-.content__one--activeTwo {
+.search_content__one--activeTwo {
   width: 220px;
   height: 160px;
   left: 500.29px;
@@ -322,23 +335,22 @@ html, body {
   line-height: 26px;
 }
 
-.content__one--activeThree {
+.search_content__one--activeThree {
   left: 1087.28px;
   top: 1992px;
 }
 
-.content__one--activeFour {
+.search_content__one--activeFour {
   left: 500.29px;
   top: 2400px;
 }
 
-.content__one--activeFive {
+.search_content__one--activeFive {
   left: 1087.28px;
   top: 2400px;
 }
 
-.learn__guide {
-  position: absolute;
+.search_learn__guide {
   width: 87px;
   height: 26px;
   left: 500.29px;
@@ -358,23 +370,22 @@ html, body {
   color: #212353;
 }
 
-.learn__guide--active {
+.search_learn__guide--active {
   left: 1087.28px;
   top: 2172px;
 }
 
-.learn__guide--activeTwo {
+.search_learn__guide--activeTwo {
   left: 500.29px;
   top: 2580px;
 }
 
-.learn__guide--activeThree {
+.search_learn__guide--activeThree {
   left: 1087.28px;
   top: 2580px;
 }
 
-.ar__line {
-  position: absolute;
+.search_ar__line {
   width: 20px;
   height: 0px;
   left: 607.29px;
@@ -384,26 +395,25 @@ html, body {
           box-sizing: border-box;
 }
 
-.ar__line--activeOne {
+.search_ar__line--activeOne {
   left: 1194.28px;
 }
 
-.ar__line--activeTwo {
+.search_ar__line--activeTwo {
   top: 2593px;
 }
 
-.ar__line--activeThree {
+.search_ar__line--activeThree {
   left: 1194.28px;
   top: 2592px;
 }
 
-.ar__line--activeFour {
+.search_ar__line--activeFour {
   left: 1308px;
   top: 3801px;
 }
 
-.row__tri {
-  position: absolute;
+.search_row__tri {
   width: 14px;
   height: 6px;
   left: 627.29px;
@@ -415,20 +425,20 @@ html, body {
           transform: rotate(90deg);
 }
 
-.row__tri--activeOne {
+.search_row__tri--activeOne {
   left: 1214.28px;
 }
 
-.row__tri--activeTwo {
+.search_row__tri--activeTwo {
   top: 2586px;
 }
 
-.row__tri--activeThree {
+.search_row__tri--activeThree {
   left: 1214px;
   top: 2586px;
 }
 
-.row__tri--activeFour {
+.search_row__tri--activeFour {
   left: 1328px;
   top: 3794px;
 }

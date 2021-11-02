@@ -310,16 +310,31 @@ html, body {
 
 /***************** FEATURES ***********************/
 
-// .titles {
-//     position: absolute;
-//     width: 1137.28px;
-//     height: 1026px;
-//     left: 220px;
-//     top: 1613px;
-// }
+.search {
+    // position: absolute;
+    // width: 442px;
+    // height: 358px;
+    // left: 328.29px;
+    // top: 1873px;
+    // background: #68c9ba;
+    // opacity: 0.1;
+    // border-radius: 50px;
 
-.item__title {
     position: absolute;
+    width: 531.29px;
+    height: 388px;
+    left: 239px;
+    top: 1843px;
+
+    .searchImg {
+        width: 232px;
+        height: 211px;
+        left: 239px;
+        top: 1946px;
+    }
+
+&_item__title {
+    // position: absolute;
     left: 500.29px;
     top: 1922px;
     width: 200px;
@@ -359,10 +374,10 @@ html, body {
     }
 }
 
-.content__one {
+&_content__one {
 
     &--active {
-        position: absolute;
+        // position: absolute;
         width: 584px;
         height: 58px;
         left: 507.29px;
@@ -433,8 +448,8 @@ html, body {
 
 
 
-.learn__guide {
-    position: absolute;
+&_learn__guide {
+    // position: absolute;
     width: 87px;
     height: 26px;
     left: 500.29px;
@@ -467,8 +482,8 @@ html, body {
 
     
 
-.ar__line {
-    position: absolute;
+&_ar__line {
+    // position: absolute;
     width: 20px;
     height: 0px;
     left: 607.29px;
@@ -495,8 +510,8 @@ html, body {
     }
 }
 
-.row__tri {
-    position: absolute;
+&_row__tri {
+    // position: absolute;
     width: 14px;
     height: 6px;
     left: 627.29px;
@@ -523,6 +538,8 @@ html, body {
         top: 3794px;
     }
 }
+}
+
 
 /************* TEST ******************/
 
